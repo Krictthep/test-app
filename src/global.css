@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --button-1-semi-bold: Poppins;
+  --font-inter: Inter;
+
+  /* font sizes */
+  --font-size-base: 16px;
+  --font-size-sm: 14px;
+  --font-size-lg: 18px;
+  --button-1-semi-bold-size: 20px;
+  --font-size-13xl: 32px;
+
+   /* font sizes signup */
+   --button-1-semi-bold-size: 20px;
+   --regular-18-size: 18px;
+   --regular-16-size: 16px;
+
+
+  /* Colors */
+  --greyscale-base-white: #fff;
+  --color-darkslategray-100: #2a4b6a;
+  --color-darkslategray-200: #142b41;
+  --color-red: #ff0000;
+
+
+    /* Colors SignUp */
+    --greyscale-base-white: #fff;
+    --color-red: #ff0000;
+    --color-darkslategray: #2a4b6a;
+    --greyscale-base-black: #000;
+    --gray-300: #d0d5dd;
+    --greyscale-grey-cc: #ccc;
+    --blue-blue: #255fa8;
+    --green-green: #5fc198;
+    --blue-blue-black: #021e42;
+  
+  /* Paddings */
+  --padding-base: 16px;
+
+  /* Border radiuses */
+  --br-5xs: 8px;
+  --br-14xl: 33px;
+
+  /* Effects */
+  --effect-1: 0px 2px 12px 12px rgba(0, 0, 0, 0.35);
+
+
+  /* SignUp Css*/
+  /* Paddings */
+  --padding-base: 16px;
+  --padding-5xs: 8px;
+  --padding-5xl: 24px;
+  --padding-xs: 12px;
+  --padding-sm: 14px;
+
+  /* Border radiuses */
+  --br-14xl: 33px;
+  --br-9xs: 4px;
+  --br-81xl: 100px;
+
+  /* Effects */
+  --effect-2: 0px 4px 8px 4px rgba(0, 0, 0, 0.16);
+  --shadow-xs: 0px 1px 2px rgba(16, 24, 40, 0.05);
+
+}

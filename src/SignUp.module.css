@@ -1,0 +1,502 @@
+.signUpChild {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 631.5px);
+    border-radius: 20px;
+    background-color: var(--greyscale-base-white);
+    width: 1263px;
+    height: 911px;
+  }
+  .label,
+  .text {
+    position: relative;
+  }
+  .text {
+    flex: 1;
+  }
+  .content,
+  .input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .content {
+    width: 249px;
+  }
+  .input {
+    align-self: stretch;
+    border-radius: var(--br-9xs);
+    background-color: var(--greyscale-base-white);
+    box-shadow: var(--shadow-xs);
+    border: 1px solid var(--gray-300);
+    box-sizing: border-box;
+    height: 44px;
+    overflow: hidden;
+    flex-shrink: 0;
+    padding: var(--padding-5xs) var(--padding-5xl) var(--padding-5xs)
+      var(--padding-xs);
+    font-size: var(--regular-18-size);
+    color: var(--greyscale-grey-cc);
+  }
+  .input2,
+  .inputWithLabel {
+    width: 360px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .inputWithLabel {
+    display: none;
+    gap: var(--gap-7xs);
+  }
+  .input2 {
+    position: absolute;
+    top: 169px;
+    left: 838px;
+    display: flex;
+  }
+  .back {
+    position: relative;
+    font-weight: 600;
+  }
+  .buttonDefault,
+  .buttonDefault1 {
+    position: absolute;
+    top: 0;
+    left: 40px;
+    border-radius: var(--br-14xl);
+    background-color: var(--blue-blue-black);
+    box-shadow: var(--effect-2);
+    width: 160px;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-sm) var(--padding-base);
+    box-sizing: border-box;
+  }
+  .buttonDefault1 {
+    left: 928px;
+    background-color: var(--green-green);
+  }
+  .buttonDefaultParent,
+  .signUpInner {
+    position: absolute;
+    top: 634px;
+    left: 0;
+    width: 1128px;
+    height: 48px;
+  }
+  .signUpInner {
+    top: 178px;
+    left: 65px;
+    height: 850px;
+    font-size: var(--button-1-semi-bold-size);
+    color: var(--greyscale-base-white);
+  }
+  .picIcon {
+    width: 150px;
+    position: relative;
+    border-radius: var(--br-81xl);
+    height: 150px;
+    overflow: hidden;
+    flex-shrink: 0;
+    cursor: pointer;
+  }
+  .content1 {
+    width: 249px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-xs);
+  }
+  .inputEmail,
+  .inputWithLabel1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .inputWithLabel1 {
+    align-self: stretch;
+    gap: var(--gap-7xs);
+  }
+  .inputEmail {
+    width: 360px;
+  }
+  .mdipasswordOutlineIcon {
+    width: 24px;
+    position: relative;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .text2 {
+    width: 261px;
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+  }
+  .content2,
+  .inputEmailParent {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .content2 {
+    width: 321px;
+    align-items: center;
+    gap: var(--gap-5xs);
+  }
+  .inputEmailParent {
+    align-items: flex-start;
+    gap: var(--gap-5xl);
+  }
+  .frameChild {
+    width: 1133px;
+    position: relative;
+    max-height: 100%;
+  }
+  .icon {
+    width: 16px;
+    position: relative;
+    height: 16px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .content6,
+  .input8 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .content6 {
+    width: 327px;
+    gap: var(--gap-38xl);
+  }
+  .input8 {
+    align-self: stretch;
+    border-radius: var(--br-9xs);
+    background-color: var(--greyscale-base-white);
+    box-shadow: var(--shadow-xs);
+    border: 1px solid var(--gray-300);
+    box-sizing: border-box;
+    height: 44px;
+    overflow: hidden;
+    flex-shrink: 0;
+    padding: var(--padding-5xs) var(--padding-5xl) var(--padding-5xs)
+      var(--padding-xs);
+    font-size: var(--regular-18-size);
+  }
+  .label8 {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .text7 {
+    width: 38px;
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+  }
+  .content7,
+  .input10,
+  .input9 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .content7 {
+    width: 70px;
+    gap: var(--gap-lg);
+  }
+  .input10,
+  .input9 {
+    width: 93px;
+    border-radius: var(--br-9xs);
+    background-color: var(--greyscale-base-white);
+    box-shadow: var(--shadow-xs);
+    border: 1px solid var(--gray-300);
+    box-sizing: border-box;
+    height: 44px;
+    overflow: hidden;
+    flex-shrink: 0;
+    padding: var(--padding-5xs) var(--padding-xs);
+  }
+  .input10 {
+    width: 259px;
+    padding: var(--padding-5xs) var(--padding-5xl) var(--padding-5xs)
+      var(--padding-xs);
+    color: var(--greyscale-grey-cc);
+  }
+  .inputParent,
+  .inputWithLabel7 {
+    position: absolute;
+    left: 0;
+    width: 360px;
+  }
+  .inputParent {
+    top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+    font-size: var(--regular-18-size);
+  }
+  .inputWithLabel7 {
+    top: 0;
+    height: 74px;
+  }
+  .input51 {
+    width: 360px;
+    position: relative;
+    height: 74px;
+  }
+  .input4Parent {
+    width: 744px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 32px 24px;
+  }
+  .frameContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    align-items: flex-start;
+    gap: var(--gap-5xl);
+  }
+  .content11,
+  .frameContainer,
+  .input13 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .content11 {
+    flex: 1;
+    align-items: center;
+  }
+  .input13 {
+    width: 359px;
+    border-radius: var(--br-9xs);
+    background-color: var(--greyscale-base-white);
+    box-shadow: var(--shadow-xs);
+    border: 1px solid var(--gray-300);
+    box-sizing: border-box;
+    height: 136px;
+    overflow: hidden;
+    flex-shrink: 0;
+    align-items: flex-start;
+    padding: var(--padding-5xs) var(--padding-5xl) var(--padding-5xs)
+      var(--padding-xs);
+    font-size: var(--regular-18-size);
+    color: var(--greyscale-grey-cc);
+  }
+  .inputWithLabel10 {
+    align-self: stretch;
+    height: 166px;
+    flex-direction: column;
+    gap: var(--gap-7xs);
+  }
+  .input1Parent,
+  .input71,
+  .input7Parent,
+  .inputWithLabel10 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .input71 {
+    width: 359px;
+    height: 166px;
+    flex-direction: column;
+  }
+  .input1Parent,
+  .input7Parent {
+    flex-direction: row;
+  }
+  .input1Parent {
+    width: 748px;
+    flex-wrap: wrap;
+    gap: 18px 24px;
+  }
+  .input7Parent {
+    position: absolute;
+    top: 212px;
+    left: 0;
+    gap: var(--gap-5xl);
+  }
+  .frameGroup {
+    width: 1131px;
+    position: relative;
+    height: 378px;
+    font-size: var(--regular-16-size);
+    color: var(--greyscale-base-black);
+  }
+  .labelParent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+    font-size: var(--button-1-semi-bold-size);
+    color: var(--blue-blue);
+  }
+  .frameParent {
+    align-items: flex-start;
+    gap: var(--gap-13xl);
+  }
+  .frameParent,
+  .frameWrapper,
+  .picParent {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .frameWrapper {
+    width: 1128px;
+    align-items: flex-start;
+  }
+  .picParent {
+    padding-bottom: 30px;
+    padding-top: 30px;
+    left: 45%;
+    align-items: center;
+    gap: var(--gap-5xl);
+  }
+  .signUp {
+    position: absolute;
+    top: 122px;
+    left: calc(50% - 631px);
+    box-shadow: var(--effect-2);
+    width: 1263px;
+    min-height: 911px;
+    font-size: var(--regular-16-size);
+    color: black;
+  }
+  .frameItem {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    background-color: var(--greyscale-base-black);
+    width: 64px;
+    height: 64px;
+  }
+  .logo {
+    position: absolute;
+    top: calc(50% - 9px);
+    left: calc(50% - 21px);
+    display: inline-block;
+    width: 42px;
+    height: 18px;
+  }
+  .ellipseParent {
+    position: absolute;
+    top: 8px;
+    left: 162px;
+    width: 64px;
+    height: 64px;
+    text-align: center;
+    font-size: 14px;
+    font-family: var(--font-inter);
+  }
+  .buttonDefault2 {
+    position: absolute;
+    top: calc(50% - 24px);
+    left: 1617px;
+    border-radius: var(--br-14xl);
+    background-color: var(--color-darkslategray);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    width: 141px;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-base);
+    box-sizing: border-box;
+  }
+  .home {
+    top: calc(50% - 15px);
+    left: calc(50% - 29px);
+    text-decoration: underline;
+    font-weight: 600;
+    color: var(--color-darkslategray);
+  }
+  .header,
+  .home,
+  .main {
+    position: absolute;
+  }
+  .main {
+    top: 27px;
+    left: 258px;
+    color: var(--color-red);
+  }
+  .header {
+    top: 0;
+    left: calc(50% - 960px);
+    background-color: var(--greyscale-base-white);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    width: 1920px;
+    height: 80px;
+    overflow: hidden;
+    color: var(--greyscale-base-white);
+  }
+  .p {
+    margin: 0;
+  }
+  .b {
+    position: absolute;
+    top: 219px;
+    left: 1058px;
+    color: var(--color-red);
+  }
+  .signUp1 {
+    width: 100%;
+    position: relative;
+    background-color: var(--greyscale-base-white);
+    height: 1125px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--button-1-semi-bold-size);
+    color: var(--greyscale-base-black);
+    font-family: var(--button-1-semi-bold);
+  }
+  .labelLeft {
+    float: left;
+  }
+
+  .paddingTop20 {
+    padding-top: 20px;
+  }
+
+  .buttonCancel {
+    background-color: #021E42; 
+    color: white;
+    border-radius: 40px;
+    height: 48px;
+    width: 160px;
+    border-color: transparent;
+    padding-top: 10px;
+    text-decoration: none;
+  }
+
+  .buttonSumit {
+    background-color: #5FC198; 
+    color: white;
+    border-radius: 40px;
+    height: 48px;
+    width: 160px;
+    border-color: transparent;
+  }

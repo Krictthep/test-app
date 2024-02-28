@@ -288,7 +288,7 @@ const SignUp = () => {
           <div className='container' style={{paddingTop: 30, paddingLeft: 50, paddingRight: 50}}>
             <div className='col-lg-12'>
               <div className='row'>
-                <div className='col-lg-4'>
+                <div className='row col-lg-4'>
                   <label htmlFor='pswd' className={stylesSignUp.labelLeft} >Email</label>
                   <div class="input-group">                  
                     <div class="input-group-prepend">
@@ -300,7 +300,7 @@ const SignUp = () => {
                   </div>
               
                 </div>
-                <div className='col-lg-4'>
+                <div className='row col-lg-4'>
                   <label htmlFor='pswd' className={stylesSignUp.labelLeft} >Password</label>
                   <div class="input-group">                  
                     <div class="input-group-prepend">
@@ -321,7 +321,7 @@ const SignUp = () => {
 
                  
                 </div>
-                <div className='col-lg-4'>
+                <div className='row col-lg-4'>
                  <label htmlFor='pswd2' className={stylesSignUp.labelLeft}>Confirmed Password</label>
                   <div class="input-group">                  
                     <div class="input-group-prepend">
@@ -353,10 +353,10 @@ const SignUp = () => {
             
             <div className='col-lg-12'>
               <div className='row'>
-                <div className='col-lg-12' style={{paddingTop: 20}}>
+                <div className='row col-lg-12' style={{paddingTop: 20}}>
                   <label htmlFor='ifmt' className={stylesSignUp.labelLeft} style={{color: '#255FA8', fontSize: 20}}>Information</label>
                 </div>
-                <div className='col-lg-4' style={{paddingTop: 20}}>
+                <div className='row col-lg-4' style={{paddingTop: 20}}>
                   <label htmlFor='cpn' className={stylesSignUp.labelLeft}>Company Name</label>
                   <div class="input-group">                  
                       
@@ -366,7 +366,7 @@ const SignUp = () => {
                       />
                     </div>
                 </div>
-                <div className='col-lg-4' style={{paddingTop: 20}}>
+                <div className='row col-lg-4' style={{paddingTop: 20}}>
                   <label htmlFor='taxid' className={stylesSignUp.labelLeft}>Tax ID</label>
                   <div class="input-group">                  
                       
@@ -376,7 +376,7 @@ const SignUp = () => {
                       />
                     </div>
                 </div>
-                <div className='col-lg-4' style={{paddingTop: 20}}>
+                <div className='row col-lg-4' style={{paddingTop: 20}}>
                   <label htmlFor='fullname' className={stylesSignUp.labelLeft}>Full Name</label>
                   <div class="input-group">                  
                       
@@ -386,7 +386,7 @@ const SignUp = () => {
                       />
                     </div>
                 </div>
-                <div className='col-lg-4' style={{paddingTop: 20}}>
+                <div className='row col-lg-4' style={{paddingTop: 20}}>
                   <label htmlFor='country' className={stylesSignUp.labelLeft}>Country </label>
                   <div class="input-group">                  
                       
@@ -399,7 +399,7 @@ const SignUp = () => {
                     </div>
                 </div>
 
-                <div className='col-lg-4' style={{paddingTop: 20}}>
+                <div className='row col-lg-4' style={{paddingTop: 20}}>
                   <label htmlFor='phonenoid' className={stylesSignUp.labelLeft}>Phone Number </label>       
                   <div class="input-group">                  
                     <div class="input-group-prepend">
@@ -419,7 +419,7 @@ const SignUp = () => {
                 </div>
 
 
-                <div className='col-lg-4' style={{paddingTop: 20}}>
+                <div className='row col-lg-4' style={{paddingTop: 20}}>
                   <label htmlFor='webid' className={stylesSignUp.labelLeft}>Website </label>
                   <div class="input-group">                  
                       
@@ -431,7 +431,7 @@ const SignUp = () => {
                 </div>
 
                 
-                <div className='col col-lg-4' style={{paddingTop: 20}}>
+                <div className='row col-lg-4' style={{paddingTop: 20}}>
                   <label htmlFor='adrid' className={stylesSignUp.labelLeft}>Address </label>
                   <div class="input-group">                  
                       
@@ -442,7 +442,7 @@ const SignUp = () => {
                     </div>
                 </div>
 
-                <div className='col col-lg-4' style={{paddingTop: 20}}>
+                <div className='row col-lg-4' style={{paddingTop: 20}}>
                   <label htmlFor='provinceid' className={stylesSignUp.labelLeft}>State/Province </label>
                   <div class="input-group">                  
                       
@@ -474,7 +474,7 @@ const SignUp = () => {
                     </div>
                 </div>
 
-                <div className='col col-lg-4' style={{paddingTop: 20}}>
+                <div className='row col-lg-4' style={{paddingTop: 20}}>
                   <label htmlFor='subdistrictid' className={stylesSignUp.labelLeft}>Sub-District </label>
                   <div class="input-group">                  
                       

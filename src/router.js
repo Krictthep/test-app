@@ -36,11 +36,11 @@ export default function Router1()
 
                 <Navbar expand="lg" className="bg-body-tertiary">
                 <Container>
-                    <Navbar.Brand className={'col col-lg-6'} > <div className={styles.frameChild}><NavLink to="/" className={styles.logo}>LOGO</NavLink></div></Navbar.Brand>
+                    <Navbar.Brand className={'col col-lg-5'} > <div className={styles.frameChild}><NavLink to="/" className={styles.logo}>LOGO</NavLink></div></Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav" >
-                    <Nav className='col col-lg-6'>
-                        <Nav.Link href="/" style={{right: 'calc(40%)', position: 'relative'}} >Home</Nav.Link>  
+                    <Nav className='col col-lg-10'>
+                        <Nav.Link href="/" style={{position: 'relative', textAlign: 'left', left: '50px'}} >Home</Nav.Link>  
                     </Nav>
 
                     {image ?  
